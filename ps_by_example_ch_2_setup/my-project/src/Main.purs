@@ -1,12 +1,16 @@
 module Main where
+-- stuff for 2.10 (computing diagonals) p11.
+import Math (sqrt)
 
 import Prelude
 import Effect (Effect)
 import Effect.Console (log)
 
+diagonal w h = sqrt( w * w + h * h)w
+
 main :: Effect Unit
 main = do
-  log "Hello sailor!"
+  logshow (diagonal 3.0 4.0)
 
 --the above works while the below, from the book, seems to no longer work
 
