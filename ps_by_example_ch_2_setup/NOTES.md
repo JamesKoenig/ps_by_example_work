@@ -8,3 +8,10 @@ when you try to run ``pulp browserify`` you get this
 
 so I'm going to read the above linked migration guide and then probably try the
   above mentioned build alternatives
+
+I'm going to have to hit up the purescript documentation for their environment
+    setup tutorials.  webpack is probably going to be the best bet for me for
+    live development and testing out environments.
+
+I really hope at some point there's an adendum to the book because it seems well
+    intended.
